@@ -1,0 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../Storage/CAMPO.png');
+    background-size: 100% 100%; /* Ajusta la imagen para que ocupe toda la página */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed;
+}
