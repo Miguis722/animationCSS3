@@ -1,0 +1,108 @@
+a.link, a.link2 {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+a.link1 {
+    color: #fff;
+    background: #9ab8d2;
+    border: 1px solid #5380d2;
+
+        /* Firefox */
+    -moz-transition-property: all;
+    -moz-transition-duration: 1s;
+    -moz-transition-timing-function: ease;
+    -moz-transition-delay: 0.2s;
+
+    /* Chrome / Safari */
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition-delay: 0.2s;
+
+    /* Opera */
+    -o-transition-property: all;
+    -o-transition-duration: 1s;
+    -o-transition-timing-function: ease;
+    -o-transition-delay: 0.2s;
+
+    /* Default */
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+
+}
+
+
+a.link2 {
+    color: #9ca3a3;
+    background: #d4dbdb;
+    border: 2px solid #b3baba;
+
+    /* Firefox */
+    -moz-transition-property: all;
+    -moz-transition-duration: 300ms;
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-delay: 20ms;
+
+    /* Chrome / Safari */
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-delay: 20ms;
+
+    /* Opera */
+    -o-transition-property: all;
+    -o-transition-duration: 300ms;
+    -o-transition-timing-function: ease-out;
+    -o-transition-delay: 20ms;
+
+    /* Default */
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    transition-delay: 20ms;
+
+}
+
+a.link2:hover {
+    background-color: #9ca3a3;
+    color: #333;
+    border: 2px solid #636a6a;
+    padding: 10px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
