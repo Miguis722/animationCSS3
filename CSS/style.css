@@ -5,4 +5,94 @@ body {
     background-size: 100% 100%; /* Ajusta la imagen para que ocupe toda la página */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-attachment: fixed;
+    box-sizing: border-box;
+    position: relative;
+}
+.Solecito {
+    position: absolute;
+    top: 5%;
+    right: 1%;
+    animation: moveSun 10s linear forwards;
+}
+
+.Nube {
+    position: absolute;
+    top: 20%;
+    left: 100%;
+    animation: moveCloud 10s linear forwards, rain 10s 5s forwards, hideCloud 2s 12s forwards;
+}
+@keyframes moveCloud {
+    0% {
+        transform: translateX(100%);
+    }
+    50% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(-200%);
+    }
+}
+
+@keyframes hideCloud {
+    0% {
+        opacity: 1;
+        transform: translateX(-200%);
+    }
+    100% {
+      
+        transform: translateX(-500%);
+    }
+}
+.Texto {
+    position: absolute;
+    top: 3952%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    animation: fadeInText 2s 12s forwards;
+    color: white;
+    font-size: 24px;
+}
+
+@keyframes fadeInText {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.flor {
+    position: absolute;
+    top: 3952%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    animation: fadeIn 2s 10s forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.sole {
+    width: 350px;
+    height: 270px;
+}
+.Nubecita {
+    width: 550px;
+    height: 570px;
+}
+.Lluvia {
+    width: 150px;
+    height: 270px;
+}
+.florcita {
+    width: 300px;
+    height: 251px;
 }
